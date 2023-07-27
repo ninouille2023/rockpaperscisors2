@@ -135,3 +135,5 @@ Relatif à l'issue #123.
 # En savoir plus sur le langage markdown
 Pour la rédaction de vos fichiers Readme, n'hésitez pas à vous pencher sur la documentation markdown. Voici un lien pour vous aider :
 [Lien pour apprendre le markdown](https://programminghistorian.org/fr/lecons/debuter-avec-markdown)
+
+![Texte associé](pierre.gif)
