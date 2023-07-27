@@ -87,6 +87,20 @@ def get_image(choice):
     else:
         return scissors_img
     
+# Fonction a appeler lors de l'appui sur la touche P
+def on_key_press(e):
+    if nbDeCoups.get() < 10:
+        if e.char.lower() == "p":
+            play("Papier")
+        if e.char.lower() == "r":
+            play("Pierre")
+        if e.char.lower() == "s":
+            play("Ciseaux")
+    # Pour toutes les autres touches on ne s'en occupe pas
+
+# Associer la fonction on_key_press à l'évènement <Key>
+fenetre.bind('<Key>', on_key_press)
+
 # Définition des variables
 result_var = tk.StringVar()
 player_score_var = tk.IntVar()
