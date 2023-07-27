@@ -93,3 +93,24 @@ C'est ces trois commandes que vous utiliserez à chaque fois :
 * ``git add nomDuFichierModifié``
 * ``git commit -m "message de modification"``
 * ``git push``
+
+# Ecrire un bon message de commit
+Ecrire un bon message de commit est essentiel pour la maintenance et la compréhension d'un projet. Cela aide à suivre l'évolution du projet et à comprendre les raisons derrière chaque modification.
+
+Voici une norme généralement accéptée pour rédiger des messages de commit.
+
+## Structure d'un message de commit
+Un message de commit se compose généralement de deux parties :
+
+* Un titre (ou en-tête) : C'est une brève description des modifications. Il doit être concis et ne pas dépasser les 50 caractères. Il doit commencer par une majuscule.
+* Un corps : Il donne des détails supplémentaires sur les modifications. il est séparé du titre par une ligne blanche.
+
+```
+Titre court et description
+
+Corps du message : ici, on explique en détail le pourquoi et le comment 
+des changements si nécessaire. Essayez de garder chaque ligne à moins 
+de 72 caractères.
+```
+
+## Conseils pour un bon message de commit
